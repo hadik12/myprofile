@@ -1,0 +1,59 @@
+/* General styles */
+body {
+    padding-top: 56px; /* To prevent content from being overlapped by fixed navbar */
+}
+
+/* Navbar */
+.navbar-light {
+    background: linear-gradient(45deg, #ff6f61, #ffcc70);
+}
+
+.nav-item-bg {
+    padding: 10px;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item-bg:hover {
+    background-color: #ffcc70;
+    color: #fff;
+}
+
+/* Hero section */
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: #fff;
+    position: relative;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+/* Card styles */
+.card {
+    border-radius: 0.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Icons */
+.fas {
+    margin-bottom: 1rem;
+}
+
+/* About section */
+#about img {
+    max-width: 100%;
+    height: auto;
+}
